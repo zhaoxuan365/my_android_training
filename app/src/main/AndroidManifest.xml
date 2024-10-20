@@ -18,9 +18,8 @@
         android:theme="@style/Theme.My_android_training"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".RecyclerVIewActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.My_android_training">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
