@@ -6,6 +6,7 @@
         android:name="android.hardware.camera"
         android:required="false" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -18,7 +19,7 @@
         android:theme="@style/Theme.My_android_training"
         tools:targetApi="31">
         <activity
-            android:name=".VideoViewActivity"
+            android:name=".httpurlconnection.HttpUrlConnectionActivity"
             android:exported="true"
             android:theme="@style/Theme.My_android_training">
             <intent-filter>
@@ -27,6 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--<activity android:name="com.example.my_android_training.httpurlconnection.HttpUrlConnectionActivity" />-->
     </application>
 
 </manifest>
