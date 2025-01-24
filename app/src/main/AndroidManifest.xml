@@ -19,7 +19,7 @@
         android:theme="@style/Theme.My_android_training"
         tools:targetApi="31">
         <activity
-            android:name=".recyclerview.RecyclerViewActivity"
+            android:name=".dialog.DialogActivity"
             android:exported="true"
             android:theme="@style/Theme.My_android_training">
             <intent-filter>
